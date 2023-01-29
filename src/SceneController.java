@@ -82,7 +82,7 @@ public class SceneController {
     void pritify(ActionEvent event) {
         ArrayList<String> arr;
 
-       ReadFile r = new ReadFile("/Users/abdullahtamer/Desktop/demo/src/sample.xml");
+       ReadFile r = new ReadFile(input1.getText());
        arr= r.dataInFile;
        
        for(int i=0;i<arr.size();i++){
@@ -125,11 +125,3 @@ public class SceneController {
     }
 
 }
-
-
-
-
-
-
-
-
