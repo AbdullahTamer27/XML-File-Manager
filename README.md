@@ -20,3 +20,11 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 
 We are using JAVAFX SDK 19.0.2.1 with java 17
 
+You should have GraphVis for the visualization to work 
+
+You should give it the full Path of the file
+
+the dependencies for everything is supposed to be included but you need to add them into the project you create in order for it to run properly
+
+Try to avoid empty lines in the xml for the project to work properly
+
