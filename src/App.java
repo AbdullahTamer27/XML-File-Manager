@@ -1,4 +1,3 @@
-
 import java.io.IOException;
 
 import javafx.application.Application;
@@ -16,11 +15,13 @@ public class App extends Application {
   
         Parent root = FXMLLoader.load(getClass().getResource("mainscene.fxml"));
         Scene scene = new Scene(root);
+        scene.getStylesheets().add(getClass().getResource("App.css").toExternalForm());
   
   
   
-        primaryStage.setTitle("Hello World!");
+        primaryStage.setTitle("Data Structure Project");
         primaryStage.setScene(scene);
+        primaryStage.setResizable(false);
         primaryStage.show();
     }
     public static void main(String[] args) {

@@ -1,0 +1,38 @@
+#inputarea .content{
+    -fx-background-color: rgb(42, 38, 60);
+    -fx-text-fill:white;
+}
+#inputarea{
+    -fx-text-fill:white;
+}
+#outputarea .content{
+    -fx-background-color: rgb(42, 38, 60);
+}
+#outputarea{
+    -fx-text-fill:white;
+}
+.label{
+    -fx-text-fill: white;
+    -fx-font-family: "Times Roman";
+}
+.root{
+    -fx-background-color: rgb(19, 21, 37);
+}
+.button{
+    -fx-background-color: rgb(166,113,240);
+    -fx-text-fill: white;
+}
+#validationbuttun{
+    -fx-background-color: rgb(199,114,235);
+
+}
+#compressbutton{
+    -fx-background-color: rgb(162,135,242);
+}
+#correctbuttun{
+    -fx-background-color: rgb(177,113,236);
+}
+
+#xml2json{
+    -fx-background-color: rgb(150,125,232);
+}
